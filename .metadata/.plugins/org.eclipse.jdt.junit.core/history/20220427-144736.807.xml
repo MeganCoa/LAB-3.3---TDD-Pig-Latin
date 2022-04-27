@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="PigLatinTest" project="TDD Pig Latin" tests="2" started="2" failures="0" errors="0" ignored="0">
+  <testsuite name="PigLatinTest" time="0.019" uniqueid="[engine:junit-jupiter]/[class:PigLatinTest]">
+    <testcase name="vowelTest" classname="PigLatinTest" time="0.017" displayname="vowelTest()" uniqueid="[engine:junit-jupiter]/[class:PigLatinTest]/[method:vowelTest()]"/>
+    <testcase name="lowercase" classname="PigLatinTest" time="0.001" displayname="lowercase()" uniqueid="[engine:junit-jupiter]/[class:PigLatinTest]/[method:lowercase()]"/>
+  </testsuite>
+</testrun>

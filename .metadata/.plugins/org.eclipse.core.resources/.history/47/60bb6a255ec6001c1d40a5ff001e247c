@@ -1,0 +1,32 @@
+import java.util.Scanner;
+
+public class PigLatin {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scan = new Scanner(System.in);
+		
+
+		
+		scan.close();
+	}
+	public static String translate(String word) {
+		
+		
+		return word;
+	}
+	
+	public static String lowercase(String word) {
+		word = word.toLowerCase();
+		
+		return word;
+	}
+	public static Boolean isVowel(char c) {
+		char[] vowels = { 'a', 'e', 'i', 'o', 'u' };
+		String s = String.valueOf(c);
+		String vs = new String(vowels);
+		return vs.contains(s);
+	}
+	
+	
+}

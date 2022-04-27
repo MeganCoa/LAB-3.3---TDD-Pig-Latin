@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="PigLatinTest" project="TDD Pig Latin" tests="6" started="6" failures="0" errors="0" ignored="0">
+  <testsuite name="PigLatinTest" time="0.022" uniqueid="[engine:junit-jupiter]/[class:PigLatinTest]">
+    <testcase name="lowercaseTest" classname="PigLatinTest" time="0.016" displayname="lowercaseTest()" uniqueid="[engine:junit-jupiter]/[class:PigLatinTest]/[method:lowercaseTest()]"/>
+    <testcase name="vowelTest" classname="PigLatinTest" time="0.0" displayname="vowelTest()" uniqueid="[engine:junit-jupiter]/[class:PigLatinTest]/[method:vowelTest()]"/>
+    <testcase name="translateSpecialCharTest" classname="PigLatinTest" time="0.0" displayname="translateSpecialCharTest()" uniqueid="[engine:junit-jupiter]/[class:PigLatinTest]/[method:translateSpecialCharTest()]"/>
+    <testcase name="translateTest" classname="PigLatinTest" time="0.0" displayname="translateTest()" uniqueid="[engine:junit-jupiter]/[class:PigLatinTest]/[method:translateTest()]"/>
+    <testcase name="translateStartWithVowelTest" classname="PigLatinTest" time="0.001" displayname="translateStartWithVowelTest()" uniqueid="[engine:junit-jupiter]/[class:PigLatinTest]/[method:translateStartWithVowelTest()]"/>
+    <testcase name="hasSpecialCharTest" classname="PigLatinTest" time="0.001" displayname="hasSpecialCharTest()" uniqueid="[engine:junit-jupiter]/[class:PigLatinTest]/[method:hasSpecialCharTest()]"/>
+  </testsuite>
+</testrun>

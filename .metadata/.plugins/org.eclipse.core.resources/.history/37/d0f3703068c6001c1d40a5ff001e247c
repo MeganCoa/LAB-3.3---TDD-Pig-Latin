@@ -1,0 +1,59 @@
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class PigLatinTest {
+
+	@Test
+	public void translateStartWithVowelTest() {
+		String expected = "equalway"; //Pig latin for School
+		String actual = PigLatin.translate("equal");
+		assertEquals(expected, actual);
+	}
+	@Test
+	public void translateUppercaseTest() {
+		String expected = "aseballbay"; //Pig latin for School
+		String actual = PigLatin.translate("BASEBALL");
+		assertEquals(expected, actual);
+	}
+	@Test
+	public void translateTest() {
+		String expected = "oolschay"; //Pig latin for School
+		String actual = PigLatin.translate("School");
+		assertEquals(expected, actual);
+	}
+	@Test
+	public void translateSpecialCharTest() {
+		String expected = "@hotmail.com"; //word with Special char
+		String actual = PigLatin.translate("@hotmail.com");
+		assertEquals(expected, actual);
+	}
+//	@Test
+//	public void translateSpacesTest() {
+//		String expected = "appleyay tree"; //word with Special char
+//		String actual = PigLatin.translate("Apple Tree");
+//		assertEquals(expected, actual);
+//	}
+
+	
+	@Test
+	public void hasSpecialCharTest() {
+		Boolean expected = true; 
+		Boolean actual = PigLatin.hasSpecialChar("email@email.com");
+		assertEquals(expected, actual);
+	}
+	@Test
+	public void lowercaseTest() {
+		String expected = "school"; //Test lower case
+		String actual = PigLatin.lowercase("SCHOOL");
+		assertEquals(expected, actual);
+	}
+	@Test
+	public void vowelTest() {
+		Boolean expected = true; //Test lower case
+		Boolean actual = PigLatin.isVowel('u');
+		assertEquals(expected, actual);
+	}
+
+
+}

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="PigLatinTest" project="TDD Pig Latin" tests="16" started="16" failures="0" errors="0" ignored="0">
+  <testsuite name="PigLatinTest" time="0.031" uniqueid="[engine:junit-jupiter]/[class:PigLatinTest]">
+    <testcase name="translateStartWithIVowelTest" classname="PigLatinTest" time="0.017" displayname="translateStartWithIVowelTest()" uniqueid="[engine:junit-jupiter]/[class:PigLatinTest]/[method:translateStartWithIVowelTest()]"/>
+    <testcase name="lowercaseTest" classname="PigLatinTest" time="0.0" displayname="lowercaseTest()" uniqueid="[engine:junit-jupiter]/[class:PigLatinTest]/[method:lowercaseTest()]"/>
+    <testcase name="vowelTest" classname="PigLatinTest" time="0.0" displayname="vowelTest()" uniqueid="[engine:junit-jupiter]/[class:PigLatinTest]/[method:vowelTest()]"/>
+    <testcase name="translateStartWithEVowelTest" classname="PigLatinTest" time="0.0" displayname="translateStartWithEVowelTest()" uniqueid="[engine:junit-jupiter]/[class:PigLatinTest]/[method:translateStartWithEVowelTest()]"/>
+    <testcase name="translateSpecialThreeCharTest" classname="PigLatinTest" time="0.0" displayname="translateSpecialThreeCharTest()" uniqueid="[engine:junit-jupiter]/[class:PigLatinTest]/[method:translateSpecialThreeCharTest()]"/>
+    <testcase name="translateStartWithAVowelTest" classname="PigLatinTest" time="0.0" displayname="translateStartWithAVowelTest()" uniqueid="[engine:junit-jupiter]/[class:PigLatinTest]/[method:translateStartWithAVowelTest()]"/>
+    <testcase name="translateStartWithUVowelTest" classname="PigLatinTest" time="0.0" displayname="translateStartWithUVowelTest()" uniqueid="[engine:junit-jupiter]/[class:PigLatinTest]/[method:translateStartWithUVowelTest()]"/>
+    <testcase name="translateSpecialCharTest" classname="PigLatinTest" time="0.001" displayname="translateSpecialCharTest()" uniqueid="[engine:junit-jupiter]/[class:PigLatinTest]/[method:translateSpecialCharTest()]"/>
+    <testcase name="translateTest" classname="PigLatinTest" time="0.0" displayname="translateTest()" uniqueid="[engine:junit-jupiter]/[class:PigLatinTest]/[method:translateTest()]"/>
+    <testcase name="translateStartWithConTest" classname="PigLatinTest" time="0.0" displayname="translateStartWithConTest()" uniqueid="[engine:junit-jupiter]/[class:PigLatinTest]/[method:translateStartWithConTest()]"/>
+    <testcase name="translateStartWithOVowelTest" classname="PigLatinTest" time="0.0" displayname="translateStartWithOVowelTest()" uniqueid="[engine:junit-jupiter]/[class:PigLatinTest]/[method:translateStartWithOVowelTest()]"/>
+    <testcase name="hasSpecialCharTest" classname="PigLatinTest" time="0.001" displayname="hasSpecialCharTest()" uniqueid="[engine:junit-jupiter]/[class:PigLatinTest]/[method:hasSpecialCharTest()]"/>
+    <testcase name="translateStartWithConsonant1Test" classname="PigLatinTest" time="0.0" displayname="translateStartWithConsonant1Test()" uniqueid="[engine:junit-jupiter]/[class:PigLatinTest]/[method:translateStartWithConsonant1Test()]"/>
+    <testcase name="translateStartWithConsonant2Test" classname="PigLatinTest" time="0.0" displayname="translateStartWithConsonant2Test()" uniqueid="[engine:junit-jupiter]/[class:PigLatinTest]/[method:translateStartWithConsonant2Test()]"/>
+    <testcase name="translateUppercaseTest" classname="PigLatinTest" time="0.0" displayname="translateUppercaseTest()" uniqueid="[engine:junit-jupiter]/[class:PigLatinTest]/[method:translateUppercaseTest()]"/>
+    <testcase name="translateStartWithTwoConTest" classname="PigLatinTest" time="0.0" displayname="translateStartWithTwoConTest()" uniqueid="[engine:junit-jupiter]/[class:PigLatinTest]/[method:translateStartWithTwoConTest()]"/>
+  </testsuite>
+</testrun>

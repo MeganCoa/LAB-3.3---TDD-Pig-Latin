@@ -1,0 +1,40 @@
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class PigLatinTest {
+
+	@Test
+	public void translateTest() {
+		String expected = "oolschay"; //Pig latin for School
+		String actual = PigLatin.translate("School");
+		assertEquals(expected, actual);
+	}
+	public void translateSpecialCharTest() {
+		String expected = "oolschay"; //word with spcial char
+		String actual = PigLatin.translate("School");
+		assertEquals(expected, actual);
+	}
+
+	
+	@Test
+	public void hasSpecialCharTest() {
+		Boolean expected = true; 
+		Boolean actual = PigLatin.hasSpecialChar("email@email.com");
+		assertEquals(expected, actual);
+	}
+	@Test
+	public void lowercaseTest() {
+		String expected = "school"; //Test lower case
+		String actual = PigLatin.lowercase("SCHOOL");
+		assertEquals(expected, actual);
+	}
+	@Test
+	public void vowelTest() {
+		Boolean expected = true; //Test lower case
+		Boolean actual = PigLatin.isVowel('u');
+		assertEquals(expected, actual);
+	}
+
+
+}

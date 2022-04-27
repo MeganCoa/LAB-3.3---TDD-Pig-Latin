@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class PigLatin {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scan = new Scanner(System.in);
+		
+
+		System.out.println(translate("HELLO"));
+		scan.close();
+	}
+	public static String translate(String word) {
+		word = word.toLowerCase();
+		
+		return word;
+	}
+	
+}
